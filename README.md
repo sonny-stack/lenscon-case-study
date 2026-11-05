@@ -1,6 +1,6 @@
 # LensCon
 
-**One view of a building group, across its accounting and its jobs.**
+**One view of a construction group, across its accounting and its jobs.**
 
 LensCon is the second vertical of [Squadera](https://squadera.io/lenscon), applying the same approach as [LensPharm](https://github.com/sonny-stack/lenspharm-case-study) to multi-entity building groups.
 
@@ -35,11 +35,13 @@ On the demo group of three entities:
 - **Cash.** A 90-day timeline built only from documented items, showing the tightest week before it arrives.
 - **Ask.** Plain-language questions answered by picking from 16 typed, pre-written tools. The AI never writes its own query, so every figure comes from tested code.
 
-<!-- Design frames: upload, then uncomment and rename to match the filenames Design delivers. -->
-<!-- ![Group view across three entities](group.png) -->
-<!-- ![Committed spend not yet invoiceable, by job and trade](commitments.png) -->
-<!-- ![90-day cash timeline](cash.png) -->
-<!-- ![Ask answering across the group](ask.png) -->
+![The whole group as one number, across three entities](lenscon-1-overview.png)
+
+![Committed spend not yet invoiceable, by job and by trade](lenscon-2-commitments.png)
+
+![The 90-day cash timeline, with the tightest week called out](lenscon-3-cash.png)
+
+![Ask answering across the group, with how it was answered](lenscon-4-ask.png)
 
 ## Where it goes next
 
@@ -48,8 +50,9 @@ On the demo group of three entities:
 - **Write-back** to the source systems, only after approval
 - **Live connections** to accounting and job management software, replacing synthetic data
 
-<!-- Concept frame: upload, then uncomment. -->
-<!-- ![Concept: a staged action waiting for approval](concept-actions.png) -->
+![Concept: a staged progress claim waiting for approval](lenscon-5-concept-action.png)
+
+The concept frame shows where this goes: an insight becomes a drafted action, a person approves every step, and only then is anything written back to Xero or the job system. It is not built yet.
 
 ## What carried across verticals
 
